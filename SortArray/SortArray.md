@@ -41,3 +41,11 @@ Worst-case: O(n log n)
 The algorithm creates temporary arrays to store the merged results, which requires additional memory proportional to the size of the input array.
 
 ![](./assets/img_submission-LeetCode-SortArray.PNG)
+
+## Challenges Faced
+*   Implementing the mergeSort function to recursively divide the array into two halves and merge the sorted without using built-in functions was a challenge that took the most time to sort out.
+
+## Optimizations
+*   The mergeSort function is optimized to use a recursive approach to divide the array into two halves
+* In-place merging allowed for some memory optimization
+* This code could be optomized more by using Math.floor or .slice() prebuilt JS functions, but this was constrained by the problem requirements.
